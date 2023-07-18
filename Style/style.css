@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  max-width: 1920px;
+}
+
+/* header related style */
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+}
+.container1 img {
+  width: 635px;
+  height: 800px;
+  margin-top: 50px;
+}
+.container1 h2 {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  width: 708px;
+}
+.container1 p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 634px;
+  margin: 32px 0px;
+}
+.container1 button {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: DodgerBlue;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+
+/* featured section related style */
+.section2 {
+  height: 780px;
+  padding: 150px 0;
+  background: #fff;
+}
+.section2-des {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section2 h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.section2 p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin: 0 auto;
+}
+.section2-img .img1 {
+  width: 310px;
+  height: 428px;
+  margin: 110px 78px 0 76px;
+}
+.section2-img .img2 {
+  width: 370px;
+  height: 370px;
+  margin: 117px 47px 51px 47px;
+}
+.section2-img .img3 {
+  width: 314px;
+  height: 471px;
+  margin: 67px 75px 0 75px;
+}
+.section2-img .figure1 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.section2-img .figure2 {
+  width: 464px;
+  height: 538px;
+  margin: 0 24px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.section2-img .figure3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.section2-img {
+  display: flex;
+  margin: 0 240px;
+}
+.section2-img p {
+  text-align: center;
+  width: 181px;
+  height: 35px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 80px;
+  text-decoration: underline;
+}
+
+/* banner section related style */
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.banner-content h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.banner-content span {
+  color: #e55473;
+}
+.banner-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  width: 594px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.banner-content button {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+}
+.banner-section img {
+  width: 318px;
+  height: 420px;
+}
+
+/* instagram section related style */
+.insta-section {
+  padding: 150px 0;
+}
+.insta-des {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.insta-des h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.insta-des p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.insta-img img {
+  width: 342px;
+  height: 396px;
+}
+.insta-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 240px;
+}
+
+/* customer review section related style */
+.customer-review {
+  background-color: #fcedda;
+  padding: 100px 50px;
+}
+.customer-review h2 {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+.review-content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 280px;
+}
+.review-content {
+  background: #fff8f3;
+  width: 300px;
+  border-radius: 15px;
+  padding: 80px 40px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.review-content h3 {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  text-align: center;
+  margin: 20px 0;
+}
+.review-content p {
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: justify;
+  font-weight: 300;
+  line-height: 25px;
+}
+.review-content figure {
+  text-align: center;
+}
+
+/* subscribe section related style */
+.subscribe-container {
+  width: 1440px;
+  height: 449px;
+  background-image: url("../Flower Asset/Rectangle 9.png");
+  margin: 130px 240px;
+}
+.subscribe-content {
+  text-align: center;
+  padding-top: 122px;
+}
+.subscribe-content h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.subscribe-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-top: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.subscribe-mail {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 287px;
+  margin-top: 48px;
+}
+.subscribe-mail input[type="email"] {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 30px;
+}
+.subscribe-mail button {
+  border-radius: 8px;
+  background: dodgerblue;
+  width: 150px;
+  height: 64px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+
+/* footer related section */
+.footer-container {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 128px;
+  height: 449px;
+  background: #111010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.footer-container h3 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-container h3 span {
+  color: #e55473;
+}
+.footer-container .footer-des {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.footer-container .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
